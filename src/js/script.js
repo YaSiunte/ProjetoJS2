@@ -26,3 +26,12 @@ console.log(texto2)
 // join (junta tudo em uma única string)
 const texto3 = texto2.join(" ")
 console.log(texto3)
+
+// MÉTODO toFixed 
+const precoProduto = 199.99;
+const desconto = 0.15;
+const precoFinal = precoProduto * (1 - desconto);
+console.log(precoFinal);
+console.log(`R$ ${precoFinal.toFixed(2)}`); // `` (template string - contatenação)
+
+
