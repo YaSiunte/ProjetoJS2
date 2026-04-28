@@ -34,4 +34,8 @@ const precoFinal = precoProduto * (1 - desconto);
 console.log(precoFinal);
 console.log(`R$ ${precoFinal.toFixed(2)}`); // `` (template string - contatenação)
 
+// DOM (document object model)
+const Titulo = document.getElementById("titulo")
 
+Titulo.innerText = "O DOM mudou o texto"
+Titulo.style.color = "pink";
